@@ -21,7 +21,7 @@ Contrastive loss is widely-used in unsupervised and self-supervised learning. Or
 
 , where m>0 is a margin. The margin defines a radius around the embedding space of a sample so that dissimilar pairs of samples only contribute to the contrastive loss function if the distance D_W is within the margin.
 
-Intuitively, this loss function encourages the neural network to learn a embedding to place samples with the same labels close to each other, while distancing the samples with different labels in the embedding space
+Intuitively, this loss function encourages the neural network to learn a embedding to place samples with the same labels close to each other, while distancing the samples with different labels in the embedding space.
 <br>
 <img src ="images/loss.png"  width=800 height=250>  
 <br>
