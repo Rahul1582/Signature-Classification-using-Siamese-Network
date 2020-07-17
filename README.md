@@ -12,7 +12,7 @@ In Siamese network we keep the basic network for getting features of entities(im
 
 At the end of common network we get a vectored representation of our input which can then be used for measuring or quantifying the similarity between them.
 <br>
-<img src ="imagesimage1.png"  width=800 height=500>  
+<img src ="images/image1.png"  width=800 height=500>  
 <br>
 
 ## Contrastive Loss
@@ -23,7 +23,7 @@ Contrastive loss is widely-used in unsupervised and self-supervised learning. Or
 
 Intuitively, this loss function encourages the neural network to learn a embedding to place samples with the same labels close to each other, while distancing the samples with different labels in the embedding space
 <br>
-<img src ="images/loss.png"  width=800 height=500>  
+<img src ="images/loss.png"  width=800 height=250>  
 <br>
 
 
