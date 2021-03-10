@@ -2,6 +2,10 @@
 
 A model that classifies the forged and original pairs of signatures by calculating the eucledian Distance between the output tensors of both the images using a Siamese Network.
 
+<br>
+<img src ="images/download.jpg"  width=800 height=500>  
+<br>
+
 ## Siamese Network
 
 Siamese neural network is an artificial neural network that use the same weights while working in tandem on two different input vectors to compute comparable output vectors. Often one of the output vectors is precomputed, thus forming a baseline against which the other output vector is compared. 
